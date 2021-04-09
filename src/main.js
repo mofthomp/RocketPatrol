@@ -15,4 +15,4 @@ let borderPadding = borderUISize / 3;
 let starSpeed = 4;
 
 // reserve keyboard bindings
-let keyF, keyR, keyLEFT, keyRIGHT;
+let keyF, keyR, keyF_dv, keyR_dv, keyLEFT, keyRIGHT; //keyF_dv and keyR_dv are support for dvorak keyboard layout, which is what I use

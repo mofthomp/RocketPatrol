@@ -30,7 +30,11 @@ class Play extends Phaser.Scene{
 
         //define keys
         keyF = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.F);
+        keyF_dv = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.U); 
+            //support for dvorak keyboard
         keyR = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.R);
+        keyR_dv = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.P);
+            //support for dvorak
         keyLEFT = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.LEFT);
         keyRIGHT = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.RIGHT);
     }
